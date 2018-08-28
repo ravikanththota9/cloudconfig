@@ -1,1 +1,15 @@
+server:
+  port: 8762
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+            
+zuul:
+   ignoredServices: ' * '
+   routes:
+     CustomerConfigurationService:
+       path: /api/customerconfiguration/**
+       service-id: CUSTOMERCONFIGURATIONSERVICE
+       stripPrefix: false
