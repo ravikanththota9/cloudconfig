@@ -1,0 +1,2 @@
+tenantQuery=select * from tenant
+scopeQuery=select * from scope_info
