@@ -13,7 +13,7 @@ zuul:
        path: /api/customerconfiguration/**
        service-id: CUSTOMERCONFIGURATIONSERVICE
        stripPrefix: false
-     Tutorial-app:
+     ui-service:
        path: /
-       service-id: TUTORIAL-APP
+       service-id: UI-SERVICE
        stripPrefix: false
