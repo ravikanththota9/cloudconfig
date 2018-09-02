@@ -30,7 +30,7 @@ zuul:
 
      Tutorial-App:
 
-       path: /home/**
+       path: /**
 
        service-id: TUTORIAL-APP
 
