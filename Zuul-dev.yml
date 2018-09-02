@@ -30,7 +30,7 @@ zuul:
 
      UI-SERVICE:
 
-       path: /
+       path: /**
 
        service-id: UI-SERVICE
 
