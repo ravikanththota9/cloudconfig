@@ -28,10 +28,10 @@ zuul:
 
        stripPrefix: false
 
-     ui-service:
+     Tutorial-App:
 
        path: /home/**
 
-       service-id: UI-SERVICE
+       service-id: TUTORIAL-APP
 
        stripPrefix: false
