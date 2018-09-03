@@ -17,3 +17,9 @@ zuul:
        path: /**
        service-id: UI-SERVICE
        stripPrefix: false
+     RetrieveService:
+       path: /api/retrieveservice/**
+       service-id: RETRIEVESERVICE
+       stripPrefix: false
+     
+     
