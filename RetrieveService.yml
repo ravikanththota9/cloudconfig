@@ -5,4 +5,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.16.0.78:8761/eureka/
-usersInformation: firstSetOfUsers
+usersInformation: secondSetOfUsers
