@@ -13,9 +13,9 @@ zuul:
        path: /api/customerconfiguration/**
        service-id: CUSTOMERCONFIGURATIONSERVICE
        stripPrefix: false
-     ui-service:
+     UIServiceStage:
        path: /**
-       service-id: UI-SERVICE
+       service-id: UISERVICESTAGE
        stripPrefix: false
      RetrieveService:
        path: /api/retrieveservice/**
