@@ -4,5 +4,5 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.16.0.22:8700/eureka/,http://172.16.0.22:8700/eureka/
+      defaultZone: http://172.16.0.22:8700/eureka/,http://172.16.0.78:8700/eureka/
 usersInformation: firstSetOfUsers
