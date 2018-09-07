@@ -1,10 +1,10 @@
 server:
-  port: 8762
+  port: 8284
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.16.0.78:8761/eureka/
+      defaultZone: http://172.16.0.22:8700/eureka/,http://172.16.0.78:8700/eureka/
             
 zuul:
    ignoredServices: ' * '
